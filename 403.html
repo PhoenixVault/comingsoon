@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <META NAME="robots" CONTENT="noindex, nofollow">
+    <title>Denied</title>
+</head>
+<style>
+    body,html { height: 100%; }
+    body {
+        padding:0;
+        margin:0;
+        background-color:#e33d40;
+        font-family:sans-serif;
+        overflow: hidden;
+        animation: shake 0.2s 0.8s linear forwards;
+    }
+    .denied {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%) rotate(-6deg);
+        transform-origin: center center;
+        color:#fff;
+        border:5px solid #fff;
+        padding:5px 10px;
+        font-weight: 900;
+        font-size:40px;
+        text-align: center;
+        opacity: 0;
+        animation: stamp 0.8s linear forwards;
+    }
+    @keyframes stamp {
+        0% {opacity: 0;font-size:4000px; border-width:500px;}
+        100% {opacity: 1;font-size:40px; border-width:5px;}
+    }
+    @keyframes shake {
+        0% {transform: translate(0px,0px); }
+        20% {transform: translate(-1px,-1px); }
+        40% {transform: translate(-1px,1px); }
+        60% {transform: translate(1px,1px); }
+        80% {transform: translate(1px,-1px); }
+        100% {transform: translate(0px,0px); }
+    }
+</style>
+<body>
+    <span class="denied">ACCESS<br>DENIED</span>
+</body>
+</html>
