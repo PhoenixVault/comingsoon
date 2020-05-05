@@ -51,9 +51,9 @@
 
 		if (moduleSlideshow.length > 0) {
 			moduleSlideshow.backstretch([
-				  "assets/images/module-3.jpg"
-				, "assets/images/module-4.jpg"
-				, "assets/images/module-5.jpg"
+				  "https://cdn.phoenixvault.info/assets/images/module-3.jpg"
+				, "https://cdn.phoenixvault.info/assets/images/module-4.jpg"
+				, "https://cdn.phoenixvault.info/assets/images/module-5.jpg"
 			], {duration: 3000, fade: 750});
 		}
 

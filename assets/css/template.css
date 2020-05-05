@@ -1,4 +1,4 @@
-/*! -----------------------------------------------------------------
+Ï/*! -----------------------------------------------------------------
 [Master Stylesheet]
 
 Project:     Skyflex
@@ -478,7 +478,7 @@ p, ul, ol, .form-group{
 }
 
 .overlay-light:before{
-	background-image:url(../images/overlay.png);
+	background-image:url(https://cdn.phoenixvault.info/assets/overlay.png);
 	opacity:0.75;
 	content:"";
 	left:0;
@@ -486,7 +486,7 @@ p, ul, ol, .form-group{
 }
 
 .overlay-dark:before{
-	background-image:url(../images/overlay-dark.png);
+	background-image:url(https://cdn.phoenixvault.info/assets/overlay-dark.png);
 	opacity:0.5;
 	content:"";
 	left:0;
